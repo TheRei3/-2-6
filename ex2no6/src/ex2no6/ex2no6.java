@@ -6,13 +6,12 @@ public class ex2no6 {   //41p
      public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("?‘?ë¦? ? •?ˆ˜ë¥? ?•˜?‚˜ ?…? ¥?•´ì£¼ì„¸?š”.>");
+	       System.out.print("ë‘ìë¦¬ ì •ìˆ˜ë¥¼ í•˜ë‚˜ ì…ë ¥í•´ì£¼ì„¸ìš”.>");
     	String input = scanner.nextLine();
-    	int num = Integer.parseInt(input); //?…? ¥ ë°›ì? ë¬¸ì?—´?„ ?ˆ«?ë¡? ë³??™˜
-    	
-    	System.out.println("?…? ¥?‚´?š© :"+input);
-    	System.out.printf("num=%d%n", num);
-    	 
+    	int num = Integer.parseInt(input);
+	     
+System.out.println("ì…ë ¥ë‚´ìš© :"+input);
+    	System.out.printf("num=%d%n", num);    	 
     	 
 	}
 	
